@@ -3,25 +3,24 @@
   "version": "1.0.0",
   "description": "- 깃허브 Actions은 특정한 이벤트가 발생했을 때 내가 원하는 일을 자동으로 수행할 수 있도록 도와주는 툴입니다.\r - Event, Workflows, Jobs, Actions, Runners로 나뉜다.",
   "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "jest": "^28.1.2"
-  },
   "directories": {
     "test": "test"
   },
-  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WON-JIN-LEE/test_gitActions.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/WON-JIN-LEE/test_gitActions/issues"
   },
-  "homepage": "https://github.com/WON-JIN-LEE/test_gitActions#readme"
+  "homepage": "https://github.com/WON-JIN-LEE/test_gitActions#readme",
+  "dependencies": {
+    "jest": "^28.1.2"
+  }
 }
